@@ -1,0 +1,51 @@
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #90b4db;
+}
+
+select {
+    padding: 5px 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+select:hover {
+    border-color: #999;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo para el botón cuando se pasa el mouse sobre él */
+button:hover {
+    background-color: #0056b3;
+}

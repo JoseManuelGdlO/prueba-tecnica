@@ -1,0 +1,8 @@
+{
+    "/r": {
+        "target": "https://reddit.com",
+        "secure": true,
+        "changeOrigin": true,
+        "loglevel": "debug"
+    }
+}
