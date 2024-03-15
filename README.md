@@ -11,8 +11,6 @@ Este es un proyecto de aplicación web desarrollado en Angular que permite consu
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
-
-```bash
 git clone https://github.com/tu-usuario/reddit-headlines-app.git
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
