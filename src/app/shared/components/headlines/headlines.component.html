@@ -3,7 +3,7 @@
   <label for="category">Seleccionar categoria:</label>
   <select id="category" [(ngModel)]="selectedCategory">
     <option value="">--Selecionar--</option>
-    <option value="mexico">Mexico</option>
+    <option *ngFor="let item of listCategories" [value]="item.value">{{item.label}}</option>
   </select>
   <button (click)="loadHeadlines()">Cargar noticias</button>
   <ul>
